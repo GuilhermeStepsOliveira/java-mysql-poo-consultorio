@@ -44,7 +44,7 @@ public class Cadastro extends JFrame{
                         }
 
                     }catch(NumberFormatException exception){
-                        JOptionPane.showMessageDialog(null, "No Campo Telefone Digite So Numeros");
+                        JOptionPane.showMessageDialog(null, "No campo telefone, digite somente números.");
                     }
                 }
             }
