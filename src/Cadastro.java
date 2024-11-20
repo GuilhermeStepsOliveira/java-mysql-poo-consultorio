@@ -40,7 +40,7 @@ public class Cadastro extends JFrame{
                             txtCidade.setText("");
                             txtTelefone.setText("");
                         }else{
-                            JOptionPane.showMessageDialog(null, "Erro Ao Cadastrar");
+                            JOptionPane.showMessageDialog(null, "Erro ao cadastrar paciente.");
                         }
 
                     }catch(NumberFormatException exception){
