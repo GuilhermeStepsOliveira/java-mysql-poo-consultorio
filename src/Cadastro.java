@@ -40,11 +40,11 @@ public class Cadastro extends JFrame{
                             txtCidade.setText("");
                             txtTelefone.setText("");
                         }else{
-                            JOptionPane.showMessageDialog(null, "Erro Ao Cadastrar");
+                            JOptionPane.showMessageDialog(null, "Erro ao cadastrar paciente.");
                         }
 
                     }catch(NumberFormatException exception){
-                        JOptionPane.showMessageDialog(null, "No Campo Telefone Digite So Numeros");
+                        JOptionPane.showMessageDialog(null, "No campo telefone, digite somente números.");
                     }
                 }
             }
